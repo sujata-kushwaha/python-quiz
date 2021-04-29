@@ -1,0 +1,54 @@
+Solution of Python Quiz 3 Week 3
+
+Answers require a reason. We may evaluate only those answers that have a proper reason. Based on video lectures.
+Q:1. If :-
+        A=set('python')
+        B=set('programming')
+        Then what will be the output of print(A-B) ?
+        Note :- The Order of output may change.
+1.{'m', 'r', 'i'}
+2.{'m', 'r', 'g', 'a', 'i'}
+3.{'h', 'y', 't'}
+4.{'y', 'h', 't', 'a'}
+Answer: 3
+Reason: A-B operation remove the characters that are available in B set.
+
+Q:2. What will be the outcome of the following code?
+        count=40
+        print(count>=30 and count<39)
+1.True
+2.False
+3.Error
+4.None of the Above
+Answer: 2
+Reason: print() return the result as it is and if the both condition fail the output will be False.
+
+Q:3. If we have a list as :-
+names=['abhay', 'mahesh', 'prashant', 'sandeep'] , then what does the following statement do:
+'rakesh' in names
+1.checks if ‘rakesh’ is there in names
+2.deletes ‘rakesh’ from names
+3.add ‘raksesh’ to names
+4.append names with ‘rakesh’
+Answer: 1
+Reason: in operator checks that if the given item is availablein given list, tuple and dictionary or not..
+
+Q:4. What will be the output of the following code?
+        print( (3 < 1) and (4/0 > 1))
+1.False
+2.True
+3.Run-time error
+4.None of the above
+Answer: 1
+Reason: Comparison operators return boolean value for evaluated condition and print function will print the value as it is.
+
+Q:5. In Python 'And' and 'Or' operators are also called:
+1.Short circuit operators
+2.Logical operators
+3.Both A and B
+4.None of the above
+Answer: 3
+Reason: 'AND' and 'OR' operator are called both Logical operator and Short Circuit Opertator.
+
+
+                                      Submit
